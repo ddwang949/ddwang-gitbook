@@ -1,4 +1,4 @@
 # Table of contents
 
 * [Homepage](README.md)
-* [Test Page](test-page.md)
+* [Article 1](article-1.md)
