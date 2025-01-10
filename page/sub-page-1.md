@@ -45,11 +45,11 @@ if (!remote_client_authorized()) {
 
 因此身份认证绕过实际上则是需要绕过函数remote\_client\_authorized()的判断，函数remote\_client\_authorized()的实现如下：
 
-
+\[PICTURE]
 
 remote\_client\_authorized()函数首先调用get\_client\_addr()函数，此函数在lib/functions.php中调用
 
-
+\[picture2]
 
 ```
 code demo
