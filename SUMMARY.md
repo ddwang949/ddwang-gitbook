@@ -12,6 +12,6 @@
 * [Cloud Security](cloud-security.md)
 * [Security Compliance](security-compliance/README.md)
   * [MLPS](security-compliance/mlps.md)
-  * [blablabla](security-compliance/iso-27001.md)
+  * [ISMS](security-compliance/iso-27001.md)
 * [Security Automation](security-automation.md)
 * [Basis](basis.md)
