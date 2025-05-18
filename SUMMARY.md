@@ -22,5 +22,6 @@
   * [OS](basis/os/README.md)
     * [Linux](basis/os/linux/README.md)
       * [Linux安全加固](basis/os/linux/linux-an-quan-jia-gu.md)
+      * [Linux入侵排查](basis/os/linux/linux-ru-qin-pai-cha.md)
     * [Windows](basis/os/windows.md)
   * [Ports\&Protocols](basis/ports-and-protocols.md)
