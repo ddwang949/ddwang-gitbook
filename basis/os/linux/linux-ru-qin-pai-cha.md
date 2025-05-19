@@ -60,14 +60,14 @@ less /var/log/auth.log             # 身份认证日志
 #### 2. 查找可疑文件（Webshell、后门）
 
 ```bash
-bash复制编辑find / -type f -name "*.php" -exec grep -i 'base64_decode' {} \; -print
+find / -type f -name "*.php" -exec grep -i 'base64_decode' {} \; -print
 grep -ri 'eval' /var/www/html
 ```
 
 #### 3. 最近 3 天修改的文件
 
 ```bash
-bash复制编辑find / -type f -mtime -3
+find / -type f -mtime -3
 ```
 
 ### 5.命令历史与行为审计
