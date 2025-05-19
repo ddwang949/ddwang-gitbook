@@ -4,23 +4,20 @@ description: 隔离备份再排查= =
 
 # Linux入侵排查
 
-###1.检查登录历史与当前会话
+### 1.检查登录历史与当前会话
 
 ```bash
 last -  登录历史记录
-\
 lastb - 登录失败记录（需 /var/log/btmp）
-\
 who - 当前在线用户
 ```
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-###2.可疑进程与网络连接排查
+### 2.可疑进程与网络连接排查
 
 ```bash
 ps -ef  / ps -aux 可以跟管道符grep敏感进程，如启用了bash等
-
 如ps -ef | grep  "bash|sshd"
 ```
 
@@ -36,7 +33,7 @@ ps -ef  / ps -aux 可以跟管道符grep敏感进程，如启用了bash等
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-###3.定时任务和自启动任务排查
+### 3.定时任务和自启动任务排查
 
 #### 检查 Cron 定时任务
 
