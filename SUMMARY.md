@@ -10,7 +10,7 @@
 * [Penetration Testing](penetration-testing/README.md)
   * [渗透测试叭叭叭](penetration-testing/shen-tou-ce-shi-ba-ba-ba/README.md)
     * [居然还能再加三级子页面](penetration-testing/shen-tou-ce-shi-ba-ba-ba/ju-ran-hai-neng-zai-jia-san-ji-zi-ye-mian.md)
-* [Cloud Security](cloud-security/README.md)
+* [Cloud Security](cloud-security.md)
   * [Azure](cloud-security/azure.md)
 * [Security Architecture](security-architecture.md)
 * [Security Compliance](security-compliance/README.md)
