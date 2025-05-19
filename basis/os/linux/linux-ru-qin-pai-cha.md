@@ -12,7 +12,7 @@ lastb - 登录失败记录（需 /var/log/btmp）
 who - 当前在线用户
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.可疑进程与网络连接排查
 
@@ -21,7 +21,7 @@ ps -ef  / ps -aux 可以跟管道符grep敏感进程，如启用了bash等
 如ps -ef | grep  "bash|sshd"
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 网络连接同样可以通过netstat -ano / netstat -tulnp配合grep查询
 
@@ -29,9 +29,9 @@ ps -ef  / ps -aux 可以跟管道符grep敏感进程，如启用了bash等
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-检查监听netstat -tulnp | grep  "127.0.0.1"
+检查监听netstat -tulnp | grep "127.0.0.1"
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.定时任务和自启动任务排查
 
