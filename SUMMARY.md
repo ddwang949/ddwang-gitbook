@@ -27,3 +27,5 @@
       * [Linux入侵排查](basis/os/linux/linux-ru-qin-pai-cha.md)
     * [Windows](basis/os/windows.md)
   * [Ports\&Protocols](basis/ports-and-protocols.md)
+* [Crypto](crypto.md)
+* [Security Operation](security-operation.md)
