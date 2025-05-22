@@ -10,6 +10,7 @@
 * [Penetration Testing](penetration-testing/README.md)
   * [常见漏洞类型](penetration-testing/chang-jian-lou-dong-lei-xing/README.md)
     * [SQL注入](penetration-testing/chang-jian-lou-dong-lei-xing/sql-zhu-ru.md)
+    * [命令注入](penetration-testing/chang-jian-lou-dong-lei-xing/ming-ling-zhu-ru.md)
 * [Cloud Security](cloud-security.md)
   * [Azure](cloud-security/azure.md)
 * [Security Architecture](security-architecture/README.md)
